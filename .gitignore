@@ -1,0 +1,19 @@
+# البيئة الافتراضية
+venv/
+__pycache__/
+*.pyc
+
+# مفاتيح API
+.env
+
+# مجلدات البيانات التي تُنشأ تلقائيًا
+data/raw/
+data/chroma_db/
+qdrant_storage/
+
+# ملفات Docker غير ضرورية للرفع
+# (لكن يمكنك رفع Dockerfile و docker-compose.yml لأنهما جزء من المشروع)
+
+# ملفات النظام
+Thumbs.db
+.DS_Store
